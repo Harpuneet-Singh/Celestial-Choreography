@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[project]
+name = "celestial-choreography"
+version = "0.1.0"
+description = "Notebook-first CR3BP and N-body experiments (Lagrange points, effective potential, trajectories)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MPL-2.0" }
+authors = [
+  { name = "Celestial Choreography (Astronomy Club, IIT Kanpur)" }
+]
+keywords = ["CR3BP", "three-body problem", "n-body", "orbit", "Lagrange points", "astrodynamics"]
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "matplotlib>=3.7",
+  "astropy>=5.3",
+  "jupyterlab>=4.0",
+  "notebook>=7.0",
+]
+
+[project.urls]
+Repository = "https://github.com/Harpuneet-Singh/Celestial-Choreography"
